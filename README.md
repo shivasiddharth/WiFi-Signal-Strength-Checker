@@ -4,8 +4,7 @@
  Simple tool to check the WiFi signal strength at your office or home.    
 
 ## Parts required   
-1. NodeMCU or Wemos D1 Mini    
-
+1. NodeMCU or Wemos D1 Mini  
             Purchase links:                 
               Amazon:
                 1. US: https://amzn.to/3vk56Ln   
