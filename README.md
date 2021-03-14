@@ -109,4 +109,4 @@ display.flipScreenVertically()
 ## Demo   
 Checkout the following video to see the device in action.   
 
-[![](http://img.youtube.com/vi/VM3Onk-PZtA/0.jpg)](http://www.youtube.com/watch?v=VM3Onk-PZtA "")
+[![](http://img.youtube.com/vi/VM3Onk-PZtA/0.jpg)](http://www.youtube.com/watch?v=VM3Onk-PZtA "")    
