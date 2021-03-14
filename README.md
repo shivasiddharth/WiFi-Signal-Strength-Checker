@@ -5,59 +5,59 @@
 
 ## Parts required   
 1. NodeMCU or Wemos D1 Mini  
-            Purchase links:                 
-              Amazon:
-                1. US: https://amzn.to/3vk56Ln   
-                2. UK: https://amzn.to/3rPuMgW     
-                3. Spain: https://amzn.to/3bGlHBf    
-                4. Italy: https://amzn.to/3qKnnhm   
-                5. Germany: https://amzn.to/3lcHyn0       
-                6. India: https://amzn.to/3cxXKey     
-              Ebay:      
-                1. https://ebay.us/hu7zJM    
-                2. https://ebay.us/yhG7Da     
-                3. https://ebay.us/loeNEr     
-                4. https://ebay.us/JF5QYD      
+          Purchase links:                 
+            Amazon:     
+              1. US: https://amzn.to/3vk56Ln   
+              2. UK: https://amzn.to/3rPuMgW     
+              3. Spain: https://amzn.to/3bGlHBf    
+              4. Italy: https://amzn.to/3qKnnhm   
+              5. Germany: https://amzn.to/3lcHyn0       
+              6. India: https://amzn.to/3cxXKey     
+            Ebay:      
+              1. https://ebay.us/hu7zJM    
+              2. https://ebay.us/yhG7Da     
+              3. https://ebay.us/loeNEr     
+              4. https://ebay.us/JF5QYD      
 
 2. SSD1306 OLED Display   
           Purchase links:    
             Amazon:    
-            1. US: https://amzn.to/3qKK0lU  
-            2. UK: https://amzn.to/30FgqU6     
-            3. Spain: https://amzn.to/3bK4Ttf    
-            4. Italy: https://amzn.to/3rNfuce   
-            5. Germany: https://amzn.to/3tib8dD          
-            6. India: https://amzn.to/2OudLdB       
+              1. US: https://amzn.to/3qKK0lU  
+              2. UK: https://amzn.to/30FgqU6     
+              3. Spain: https://amzn.to/3bK4Ttf    
+              4. Italy: https://amzn.to/3rNfuce   
+              5. Germany: https://amzn.to/3tib8dD          
+              6. India: https://amzn.to/2OudLdB       
             Ebay:       
-            https://ebay.us/VkHi7j     
-            https://ebay.us/F2lqOy        
-            https://ebay.us/9swiZ4   
+              1. https://ebay.us/VkHi7j     
+              2. https://ebay.us/F2lqOy        
+              3. https://ebay.us/9swiZ4   
 
 3. General Purpose PCB   
           Purchase links:    
             Amazon:     
-            1. US: https://amzn.to/3ey6UKR     
-            2. UK: https://amzn.to/3rHkrU2        
-            3. Spain: https://amzn.to/3rG5uBH       
-            4. Italy: https://amzn.to/3bJKJiX      
-            5. Germany: https://amzn.to/3tmsUfX             
-            6. India: https://amzn.to/3llFfOz           
+              1. US: https://amzn.to/3ey6UKR     
+              2. UK: https://amzn.to/3rHkrU2        
+              3. Spain: https://amzn.to/3rG5uBH       
+              4. Italy: https://amzn.to/3bJKJiX      
+              5. Germany: https://amzn.to/3tmsUfX             
+              6. India: https://amzn.to/3llFfOz           
             Ebay:        
-            https://ebay.us/ZmFTcu          
+              1. https://ebay.us/ZmFTcu          
 
 4. USB to Micro USB Mini adapter  
-          Purchase links:
-          Amazon:     
-          1. US: https://amzn.to/3tha4H4        
-          2. UK: https://amzn.to/3bI4Q12           
-          3. Spain: https://amzn.to/3tjUbzI          
-          4. Italy: https://amzn.to/3lmz2SE https://amzn.to/3rP5y1W      
-          5. Germany: https://amzn.to/38zQa28 https://amzn.to/30Gf4IV                 
-          6. India: https://amzn.to/3qLvCKj              
-          Ebay:       
-          https://ebay.us/r8BBUG   
-          https://ebay.us/tnmWOc  
-          https://ebay.us/jLesSJ       
+          Purchase links:     
+            Amazon:     
+              1. US: https://amzn.to/3tha4H4        
+              2. UK: https://amzn.to/3bI4Q12           
+              3. Spain: https://amzn.to/3tjUbzI          
+              4. Italy: https://amzn.to/3lmz2SE https://amzn.to/3rP5y1W      
+              5. Germany: https://amzn.to/38zQa28 https://amzn.to/30Gf4IV                 
+              6. India: https://amzn.to/3qLvCKj              
+            Ebay:       
+              1. https://ebay.us/r8BBUG   
+              2. https://ebay.us/tnmWOc  
+              3. https://ebay.us/jLesSJ       
 
 5. Portable power bank   
 6. Header Pins    
