@@ -75,7 +75,7 @@ The easy way out and to save hassles of soldering, you could probably use the We
 After putting all the parts together, the Wemos or the NodeMCU is ready to be programmed. Most of the SSD1306 I2C OLED displays have the default address set to ```0x3c```. Just to double check, I would suggest you to run an I2C address scan. My library suggestion is the "i2cdetect" by [Mike Causer](https://github.com/mcauser). ![github-small](/Images/I2C_Scanner_Library.jpg). Use the ![i2cdetect example](/Images/I2C_Detect_Example.jpg) to check for the OLED's address. After uploading the sketch, open the serial monitor and set the baud rate to the value given in the code to see the ![detected address](Serial_Monitor_I2C_Detect.jpg)
 
 ## SSD1306 Library     
-There are a number of different libraries for the SSD1306 based chipset. The one that I have used is the ["ESP8266 and ESP32 OLED driver for SSD1306 displays"](https://github.com/ThingPulse/esp8266-oled-ssd1306). ![This library](/Images/SSD1306_Library.jpg) works great.   
+There are a number of different libraries for the SSD1306 based chipset. The one that I have used is the ["ESP8266 and ESP32 OLED driver for SSD1306 displays"](https://github.com/ThingPulse/esp8266-oled-ssd1306). [This library](/Images/SSD1306_Library.jpg) works great.   
 
 ## Arduino Code   
 In the arduino code set your WiFi credentials    
