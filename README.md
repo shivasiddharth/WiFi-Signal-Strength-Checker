@@ -6,8 +6,7 @@
 ## Parts required   
 1. NodeMCU or Wemos D1 Mini    
 
-            Purchase links:        
-            
+            Purchase links:                 
               Amazon:
                 1. US: https://amzn.to/3vk56Ln   
                 2. UK: https://amzn.to/3rPuMgW     
@@ -15,7 +14,6 @@
                 4. Italy: https://amzn.to/3qKnnhm   
                 5. Germany: https://amzn.to/3lcHyn0       
                 6. India: https://amzn.to/3cxXKey     
-
               Ebay:      
                 1. https://ebay.us/hu7zJM    
                 2. https://ebay.us/yhG7Da     
