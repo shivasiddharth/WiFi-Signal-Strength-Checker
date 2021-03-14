@@ -4,7 +4,7 @@
  Simple tool to check the WiFi signal strength at your office or home.    
 
 ## Parts required   
-Markup : 1. NodeMCU or Wemos D1 Mini    
+1. NodeMCU or Wemos D1 Mini    
             Purchase links:    
               Amazon
               1. US: https://amzn.to/3vk56Ln   
@@ -19,7 +19,7 @@ Markup : 1. NodeMCU or Wemos D1 Mini
               https://ebay.us/loeNEr     
               https://ebay.us/JF5QYD      
 
-          2. SSD1306 OLED Display   
+2. SSD1306 OLED Display   
           Purchase links:    
             Amazon
             1. US: https://amzn.to/3qKK0lU  
@@ -33,7 +33,7 @@ Markup : 1. NodeMCU or Wemos D1 Mini
             https://ebay.us/F2lqOy        
             https://ebay.us/9swiZ4   
 
-          3. PCB   
+3. General Purpose PCB   
           Purchase links:    
             Amazon
             1. US: https://amzn.to/3ey6UKR     
@@ -45,7 +45,7 @@ Markup : 1. NodeMCU or Wemos D1 Mini
             Ebay  
             https://ebay.us/ZmFTcu          
 
-          4. USB to Micro USB Mini adapter  
+4. USB to Micro USB Mini adapter  
           Purchase links:
           Amazon
           1. US: https://amzn.to/3tha4H4        
@@ -59,23 +59,23 @@ Markup : 1. NodeMCU or Wemos D1 Mini
           https://ebay.us/tnmWOc  
           https://ebay.us/jLesSJ       
 
-          5. Portable power bank   
-          6. Header Pins    
-          7. Wires   
-          8. Soldering iron   
-          9. Lead-free solder    
-          10. Soldering flux     
+5. Portable power bank   
+6. Header Pins    
+7. Wires   
+8. Soldering iron   
+9. Lead-free solder    
+10. Soldering flux     
 
 ## PCB Wiring   
 The easy way out and to save hassles of soldering, you could probably use the Wemos's OLED Display addon. But the addon screen is just 0.66". There are larger displays availble, but you need to get your hands dirty and make the connections. The Wemos D1 Mini - OLED Display wiring is shown below. In the diagram below, the display's SCL pin is connected to Wemos's D1 pin, display's SDA pin is connected to Wemos's D2 pin, display's ground to Wemos's ground and display's Vcc to Wemos's 3.3V pin. Just in case you wish to make a single PCB of the Wemos and the display, you can design the PCB in Fritzing and get the PCBs printed from https://jlcpcb.com.   
 
-![github-small](/Images/Wemos_SSD1306_Wiring.jpg)      
+<p align="center"> <img src="https://github.com/shivasiddharth/WiFi-Signal-Strength-Checker/raw/main/Images/Wemos_SSD1306_Wiring.jpg"> </p>     
 
 ## Getting the I2C Address     
-After putting all the parts together, the Wemos or the NodeMCU is ready to be programmed. Most of the SSD1306 I2C OLED displays have the default address set to ```0x3c```. Just to double check, I would suggest you to run an I2C address scan. My library suggestion is the "i2cdetect" by [Mike Causer](https://github.com/mcauser). ![github-small](/Images/I2C_Scanner_Library.jpg). Use the ![i2cdetect example](/Images/I2C_Detect_Example.jpg) to check for the OLED's address. After uploading the sketch, open the serial monitor and set the baud rate to the value given in the code to see the ![detected address](Serial_Monitor_I2C_Detect.jpg)
+After putting all the parts together, the Wemos or the NodeMCU is ready to be programmed. Most of the SSD1306 I2C OLED displays have the default address set to ```0x3c```. Just to double check, I would suggest you to run an I2C address scan. My library suggestion is the "i2cdetect" by [Mike Causer](https://github.com/mcauser). <p align="center"> <img src="https://github.com/shivasiddharth/WiFi-Signal-Strength-Checker/raw/main/Images/I2C_Scanner_Library.jpg"> </p>. Use the i2cdetect example <p align="center"> <img src="https://github.com/shivasiddharth/WiFi-Signal-Strength-Checker/raw/main/Images/I2C_Detect_Example.jpg"> </p> to check for the OLED's address. After uploading the sketch, open the serial monitor and set the baud rate to the value given in the code to see the detected address as shown below. <p align="center"> <img src="https://github.com/shivasiddharth/WiFi-Signal-Strength-Checker/raw/main/Images/Serial_Monitor_I2C_Detect.jpg"> </p>
 
 ## SSD1306 Library     
-There are a number of different libraries for the SSD1306 based chipset. The one that I have used is the ["ESP8266 and ESP32 OLED driver for SSD1306 displays"](https://github.com/ThingPulse/esp8266-oled-ssd1306). [This library](/Images/SSD1306_Library.jpg) works great.   
+There are a number of different libraries for the SSD1306 based chipset. The one that I have used is the ["ESP8266 and ESP32 OLED driver for SSD1306 displays"](https://github.com/ThingPulse/esp8266-oled-ssd1306). This library https://github.com/shivasiddharth/WiFi-Signal-Strength-Checker/raw/main/Images/SSD1306_Library.jpg works great.   
 
 ## Arduino Code   
 In the arduino code set your WiFi credentials    
