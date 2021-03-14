@@ -6,18 +6,19 @@
 ## Parts required   
 1. NodeMCU or Wemos D1 Mini    
             Purchase links:        
-              Amazon:    
-              1. US: https://amzn.to/3vk56Ln   
-              2. UK: https://amzn.to/3rPuMgW     
-              3. Spain: https://amzn.to/3bGlHBf    
-              4. Italy: https://amzn.to/3qKnnhm   
-              5. Germany: https://amzn.to/3lcHyn0       
-              6. India: https://amzn.to/3cxXKey   
+              Amazon:
+                1. US: https://amzn.to/3vk56Ln   
+                2. UK: https://amzn.to/3rPuMgW     
+                3. Spain: https://amzn.to/3bGlHBf    
+                4. Italy: https://amzn.to/3qKnnhm   
+                5. Germany: https://amzn.to/3lcHyn0       
+                6. India: https://amzn.to/3cxXKey     
+
               Ebay:      
-              https://ebay.us/hu7zJM    
-              https://ebay.us/yhG7Da     
-              https://ebay.us/loeNEr     
-              https://ebay.us/JF5QYD      
+                1. https://ebay.us/hu7zJM    
+                2. https://ebay.us/yhG7Da     
+                3. https://ebay.us/loeNEr     
+                4. https://ebay.us/JF5QYD      
 
 2. SSD1306 OLED Display   
           Purchase links:    
